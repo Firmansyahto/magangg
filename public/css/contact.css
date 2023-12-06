@@ -1,0 +1,69 @@
+.contactJumbo
+{
+  background:
+  linear-gradient(45deg, #d7545284, #9c3735a4, #000000),
+  url('../img/jumbotron.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 16em;
+}
+
+.contactJumbo .PageTitle p
+{
+  font-size: 48px;
+  letter-spacing: 5px;
+  margin-top: 1.7em;
+}
+
+/* .contactContainer
+{
+  background:
+  linear-gradient(360deg, #45454550, #0d0d0d15),
+  url('../img/b1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+} */
+
+.contactContainer .contact-subtitle::after
+{
+  content:"";
+  display:block;
+  border-bottom: 3px solid #292929;
+  opacity: 0.3;
+  width: 3em;
+}
+
+.contactContainer .contactLinks:hover .font-poppins
+{
+  color: #d75452 !important;
+}
+
+/* Small Device */
+@media (max-width: 767px)
+{
+  .contactJumbo
+  {
+    height: 12em;
+  }
+
+  .contactJumbo .PageTitle p
+  {
+    font-size: 32px;
+    margin-top: 2em;
+  }
+}
+
+/* Medium Device */
+@media (min-width: 768px) and (max-width: 991px)
+{
+
+}
+
+/* Large Device */
+@media (min-width: 992px)
+{
+
+}

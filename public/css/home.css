@@ -1,0 +1,180 @@
+.navsMenu .nav-link
+{
+  color: #48484896;
+  border-bottom: 3px solid #ffffff00;
+}
+
+.navsMenu .nav-link:hover,
+.navsMenu .nav-link.active
+{
+  color: #d75452;
+  border-bottom: 3px solid #d75452;
+}
+
+.navsMenu .nav-link.login
+{
+  transition: .5s ease-in-out;
+  color: #d75452a0;
+}
+
+.navsMenu .nav-link.login:hover
+{
+  background: #d75452;
+  border: 2px solid #ffffff60 !important;
+  color: #ffffffe0 !important;
+}
+
+.sidebar .closeBtn
+{
+  opacity: 0.4;
+}
+
+.sidebar .closeBtn:hover
+{
+  opacity: 1;
+}
+
+.jumboHome
+{
+  background: url('../img/jumbotron.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 15px !important;
+}
+
+/* .jumboHome {
+  position: relative;
+  min-height: 330px; width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition: .5s ease;
+  background: linear-gradient(45deg, #0e6ad2, #00000024);
+}
+
+.jumboHome:hover .overlay {
+  opacity: 1;
+}
+
+.jumboHome .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+} */
+
+.content-subtitle::after
+{
+  content:"";
+  display:block;
+  border-bottom: 3px solid #292929;
+  opacity: 0.3;
+  width: 3em;
+}
+
+.caraPesan button.active .number
+{
+  background: #ffffff !important;
+  color: #d75452 !important;
+}
+
+.caraPesan button.active .caraDesk
+{
+  color: #ffffff !important;
+}
+
+.ListKost .kunjungi
+{
+  border: 2px solid #d75452;
+  color: #d75452;
+}
+
+.ListKost .kunjungi:hover
+{
+  background: #d75452;
+  color: #fff;
+}
+
+.panduanIndicator
+{
+  background: #ffffff !important;
+  box-shadow: 0 0 3px 1px rgba(0,0,0, 0.15) !important;
+  border: 1px solid rgba(0,0,0, 0.15) !important;
+  opacity: 1 !important;
+}
+
+.panduanIndicator.active
+{
+  background: #d75452 !important;
+}
+
+.caraPesan .nav-link.active
+{
+  background: #d75452 !important;
+  color: #ffffff !important;
+}
+
+.caraPesan .nav-link
+{
+  color: #d75452 !important;
+}
+
+/* Small Device */
+@media (max-width: 767px)
+{
+  .jumboDesc
+  {
+    background: #232323ce;
+    border: 3px solid rgba(255, 255, 255, 0.35);
+  }
+}
+
+/* Medium Device */
+@media (min-width: 768px) and (max-width: 991px)
+{
+  .jumboDesc
+  {
+    background: #232323ce;
+    border: 3px solid rgba(255, 255, 255, 0.35);
+  }
+}
+
+/* Large Device */
+@media (min-width: 992px)
+{
+  .jumboDesc
+  {
+    background: #2323238e;
+    border: 3px solid rgba(255, 255, 255, 0.35);
+    position: absolute;
+    z-index: 99;
+  }
+
+  .jumboHome::after
+  {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    background: linear-gradient(45deg, #0e6ad2, #00000024);
+    opacity:0.5;
+    border-radius: 15px !important;
+  }
+}
